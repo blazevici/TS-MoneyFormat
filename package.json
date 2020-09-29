@@ -1,0 +1,33 @@
+{
+  "name": "ts-moneyformat",
+  "version": "1.0.0",
+  "description": "Formatting money, identifying type of credit card etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server --baseDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazevici/TS-MoneyFormat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blazevici/TS-MoneyFormat/issues"
+  },
+  "homepage": "https://github.com/blazevici/TS-MoneyFormat#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "lite-server": "^2.5.4",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {},
+  "keywords": []
+}
