@@ -1,12 +1,32 @@
+// prilagodbe za NUMBER INPUT FIELD
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
 
+.warning-input {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.35);
+}
 
 body {
-
-    .container {
-
-        .money-content {
+	.container {
+		.money-content {
             padding: 0;
+            
+            #reset-button {
+                cursor: pointer;
+            }
         }
-    }
-
+        
+        .card-content {
+            
+            #cardType {
+                text-transform: uppercase;
+            }
+        }
+	}
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TS - Bankomat</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container pt-3">
+			<h1>Bankomat</h1>
+
+			<div class="col-md-6 money-content">
+				<div class="input-group mt-3 card-content">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon2">Broj kartice</span>
+                    </div>
+                    <input
+						type="text"
+						maxlength="19"
+						size="19"
+						class="form-control"
+						id="card-number"
+                        aria-label="card-number"
+						aria-describedby="basic-addon2"
+						pattern="^[0-9]$"
+						autocomplete="off"
+					/>
+					<div class="input-group-append">
+                        <span class="input-group-text" id="card-type"></span>
+                    </div>
+                </div>
+
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Iznos novca</span>
+                    </div>
+                    <input
+                        type="text"
+						class="form-control"
+						id="money-amount"
+                        aria-label="Money"
+						aria-describedby="basic-addon1"
+						pattern="^[0-9.,]$"
+						autocomplete="off"
+					/>
+					<div class="input-group-append">
+                        <span class="input-group-text" id="reset-button">OČISTI</span>
+                    </div>
+				</div>
+            </div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
