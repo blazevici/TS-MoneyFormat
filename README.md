@@ -1,2 +1,2 @@
 # TS-MoneyFormat
-Formatting money, identifying type of credit card etc.
+Formatting currency and identifying the type of credit card.
